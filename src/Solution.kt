@@ -30,7 +30,7 @@ class Solution {
     fun removeDuplicates(nums: IntArray): Int {
         var cache = 0
         var count = 0
-        if (nums?.size > 1) {
+        if (nums.size > 1) {
             for ((index, item) in nums.withIndex()) {
                 if (index == 0) {
                     cache = item
